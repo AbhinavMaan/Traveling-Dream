@@ -1,0 +1,40 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  
+}
+canvas {
+  display:block;
+}
+
+.sidenav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: .5s;
+  padding-top: 20px;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #5f5d5d;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav :hover {
+  color: rgb(241, 241, 241);
+}
+
+button{
+  background-image: repeating-conic-gradient(rgb(250, 10, 90) 10%, blue 20%);
+  border-radius: 15px;
+}
